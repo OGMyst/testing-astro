@@ -1,37 +1,39 @@
 html {
-    background-color: #f1f5f9;
-    font-family: sans-serif;
-  }
-  
-  body {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
-    line-height: 1.5;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-  }
-  .hamburger {
-    padding-right: 20px;
-    cursor: pointer;
-  }
-  
-  .hamburger .line {
-    display: block;
-    width: 40px;
-    height: 5px;
-    margin-bottom: 10px;
-    background-color: #ff9776;
-  }
-  /* nav styles */
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #ff9776;
+}
+
+/* nav styles */
 
 .nav-links {
   width: 100%;
@@ -52,12 +54,22 @@ html {
   text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
+.nav-links a:hover,
+a:focus {
   background-color: #ff9776;
 }
 
 .expanded {
   display: unset;
+}
+
+.dark body {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
 
 @media screen and (min-width: 636px) {
